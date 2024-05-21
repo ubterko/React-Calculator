@@ -28,6 +28,51 @@
   color: #61dafb;
 }
 
+body {
+  background-color: rgb(234, 237, 238);
+  padding: 20px;
+}
+
+.main-calc {
+  height: 90vh;
+  width: 40vw;
+  margin: 0 auto;
+  border: 5px solid white;
+  border-radius: 0.8rem;
+  background-color: white;
+}
+.Screen {
+  display: block;
+  height: 100px;
+  border-radius:0.4rem;
+  color: #6c7a72;
+  background-color:#e4e7e7;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.numberButtons, .operandButtons, .equalsButton {
+  width: 125px;
+  height: 100px;
+  margin: 5px;
+  display: inline-block;
+  border: none;
+  border-radius:0.4rem;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.operandButtons {
+  background-color:#4768aa;
+  color: #dee0e4;
+}
+
+.equalsButton {
+  background-color:#c73737;
+  color: #e0dada;
+  width: 259px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
